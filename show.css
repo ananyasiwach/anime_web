@@ -138,28 +138,17 @@ input{
 }
 
 
-
-
-
-
-
-
 .wrapper{
-    margin-top:3%;
+    display: flex;
+    margin-top:1%;
     margin-left: 5%;
     width: 90%;
-     height: 500px; 
-     overflow: hidden;
-}
-.slide{
-    display: flex;
-    aspect-ratio:21/12;
-    overflow-x: auto;
-    scroll-snap-type:x mandatory;
-    scroll-behavior: smooth;
-}
-.slide img{
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
+     height: 600px; 
+     overflow: hidden; 
+     overflow-x:scroll;
+     gap: 20px;
+} 
+img{
+    height: 600px;
+    width: 1193.4px;
 }
